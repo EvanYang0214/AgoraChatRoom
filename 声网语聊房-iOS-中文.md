@@ -19,31 +19,8 @@
 # 2.使用场景
 声网声动语聊源码，最终目的是方便开发者快速按需集成，减少开发者搭建语聊房的工作量。在现有源码的基础上，您可以按需自由定制，包括UI/UE，前端逻辑，权限体系等
 
-# 3.集成步骤
-## 3.1 在您的podfile文件里面，需要添加以下几个第三方库
-```
-# 布局
-  pod 'SnapKit'
-# 刷新
-  pod 'MJRefresh', '~> 3.2.0'
-# toast
-  pod 'MBProgressHUD', '~> 1.1.0'
-# 加载图片
-  pod 'SDWebImage', '~> 5.0.3'
-# 键盘
-  pod 'IQKeyboardManager'
-# RTC Agora音视频
-  pod 'AgoraRtcEngine_Special_iOS', '4.0.0.9'
-# 矢量动画
-pod 'SVGAPlayer'
-# 字典转模型
-pod 'KakaJSON'
-# AgoraChat IM
-pod 'Agora_Chat_iOS','1.0.8'
-然后pod install成功之后，打开项目即可开始您的体验。
-```
+# 3.快速开始
 
-## 3.2 注册声网和环信APPID
 - 在集成的同时，需要去声网合环信的官网注册好对应的账号，同时开通对应的权限从而快速开始你的体验
 - 然后pod install成功之后，打开项目即可开始您的体验
 - 在项目的keycenter.swift文件中。需要填写对应的账号和token
